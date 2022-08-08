@@ -1,0 +1,83 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    max-width: 100%;
+    width: 100%;
+}
+header{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+header img{
+    width: 400px;
+    height: 150px;
+    border: red 3px solid;
+}
+header h1{
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: red;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    background-color: black;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+   
+}
+nav ul li{
+    margin-right: 15px;
+}
+nav ul li a img{
+    width: 30px;
+    border-radius: 50px;
+    border: solid red 2px;
+    outline: solid white 2px;
+}
+nav .home a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-right: 15px;
+}
+main{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div li{
+    line-height: 3;
+}
+section p{
+    line-height: 30px;
+    letter-spacing: 4px;
+}
+footer{
+    background-color: whitesmoke;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+}
+footer p{
+    color: red;
+    padding-top: 50px;
+}
